@@ -1,3 +1,0 @@
-select DeviceID from win32_diskdrive (PNPDeviceID contains our wierd number)
-select Dependent from Win32_DiskDriveToDiskPartition (where Antecedent contains the DeviceID from the line above)
-select Dependent from Win32_LogicalDiskToPartition (where Antecedent contains the Dependent from the line above)
