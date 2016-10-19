@@ -5,7 +5,7 @@ import wmi
 
 import servicemanager
 
-conf_filename = join(dirname(realpath(__file__)), 'DOK_backup.ini')
+conf_filename = join(dirname(realpath(__file__)), 'flashBackup.ini')
 log_fw = 'event_logs'
 
 def log(content):

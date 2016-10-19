@@ -9,7 +9,6 @@ from copyer import run
 
 parser = SafeConfigParser()
 
-
 def is_removable_drive(drive_letter):
     pythoncom.CoInitialize()
     c = wmi.WMI()

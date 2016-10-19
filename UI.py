@@ -12,9 +12,9 @@ class Ui_MainWindow(object):
 
     def setupUi(self, MainWindow):
         MainWindow.setObjectName(_fromUtf8("MainWindow"))
-        MainWindow.resize(239, 362)
-        MainWindow.setMinimumSize(239, 362)
-        MainWindow.setMaximumSize(239, 362)
+        MainWindow.resize(639, 600)
+        MainWindow.setMinimumSize(639, 600)
+        MainWindow.setMaximumSize(639, 600)
         self.widget = QWidget(MainWindow)
         self.widget.setObjectName(_fromUtf8("widget"))
         self.label = QLabel(self.widget)
@@ -69,7 +69,7 @@ class Ui_MainWindow(object):
             my_button.setIcon(ip.icon(drive))
             my_button.setCheckable(True)
             my_button.setFlat(True)
-            buttonSize = QtCore.QSize(64, 64)
+            buttonSize = QtCore.QSize(120, 70)
             my_button.setFixedSize(buttonSize)
             my_button.setIconSize(buttonSize)
 
@@ -83,15 +83,15 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QApplication.translate(
-            "MainWindow", "DOK backup", None))
+            "MainWindow", "FlashBackup", None))
         self.label.setText(QApplication.translate(
-            "MainWindow", "make sure yarrr device is connected!", None))
+            "MainWindow", "Make sure your device is connected!", None))
         self.select_drive_label.setText(QApplication.translate(
             "MainWindow", "Please select your removable drive:", None))
         self.back_upLbl.setText(QApplication.translate(
             "MainWindow", "backup path:", None))
         self.okBtn.setText(QApplication.translate(
-            "MainWindow", "oKaY", None))
+            "MainWindow", "Ok", None))
 
     def setConnections(self):
         self.okBtn.clicked.connect(

@@ -1,3 +1,8 @@
+#############################################################################
+# Based on Tim Golden's code from:                                          #
+# http://timgolden.me.uk/python/win32_how_do_i/detect-device-insertion.html #
+#############################################################################
+
 import win32serviceutil
 import win32service
 import win32event
