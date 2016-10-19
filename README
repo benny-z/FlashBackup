@@ -1,0 +1,10 @@
+Requirements:
+* Windows (tested on Windows 7 and Windows 10)
+* python packages:
+  - PyQt5
+  - pywin32
+  - wmi
+  - configparser
+
+Known issues:
+ * No support for HiDpi
