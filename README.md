@@ -35,4 +35,4 @@ and use the intuitive UI.
  * flashBackup.ini - the file that stores the configurations.
  * utils.py - various helper functions.
 
- ![](/demo.jpg?raw=true "")
+ ![](/demo.jpeg?raw=true "")
