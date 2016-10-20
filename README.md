@@ -1,7 +1,7 @@
 # FlashBackup
 
 ## Executive summary
-Backs up specified removable devices to the connected PC every fixed amount of time.
+The application aims to back up data from removable devices to the connected PC every fixed amount of time.
 
 ## Installation and execution
 In order to run the service, type in the following lines:
@@ -17,7 +17,7 @@ and use the intuitive UI.
 
 #### Requirements:
  * Windows (tested on Windows 7 and Windows 10)
- * Python
+ * Python 3
  * Additional python packages:
   - PyQt5
   - pywin32
