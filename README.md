@@ -30,7 +30,7 @@ and use the intuitive UI.
  * UI.py - the user interface (see figure below)
  * detector.py - starts a windows service that runs a backup procedure (if required) every time a registered flash drive is detected
 
- **note** The operation of determining whether a backup should be run, and running it, is in the jurisdiction of the *copyer.py* module
+ **note** The operation of determining whether a backup should be run, and running it, is in the responsibility of the *copyer.py* module
  
  * reset.bat - restarts the windows service specified in *detector.py*
  * copyer.py - responsible for determination whether a backup for the given device is required (by querying the log), and doing the actual backup.
